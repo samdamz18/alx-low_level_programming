@@ -1,5 +1,8 @@
 #include <stdio.h>
 #include "main.h"
+#include <iostream>
+using namespace std;
+void print_remaining_days(int a, int b, int c)
 
 /**
  * print_remaining_days - takes a date and prints how many days are left in the year
@@ -33,4 +36,8 @@ void print_remaining_days(int month, int day, int year)
 			printf("Remaining days: %d\n", 365 - day);
 		}
 	}
+}
+int main()
+{
+	print_remaining_days(int month, int day, int year()
 }
